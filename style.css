@@ -11,8 +11,8 @@ body{
 }
 .carrossel{
     position: relative;
-    width: 80%;
-    height: 80%;
+    width: 40%;
+    height: 95%;
     box-shadow: 0 0 16px #000;
     border-radius: 12px;
     background-position: center;
@@ -36,16 +36,16 @@ body{
 
 @keyframes slider {
     0%, 33% {
-        background-image: url(./img/olhos-gato.jpg);
-        --text-description: "Olhos de gato!"
+        background-image: url(./img/pingpong.jpeg);
+        --text-description: "Mesa de ping pong: jogatina dos intervalos"
     }
     34%, 66% {
-        background-image: url(./img/olhos-cachorro.jpg);
-        --text-description: "Olhos de cachorro!"
+        background-image: url(./img/quadra.jpeg);
+        --text-description: "Quadra: pena que o resultado do interclasse nao foi dos melhores..."
     }
     67%, 100% {
-        background-image: url(./img/olhos-aguia.jpg);
-        --text-description: "Olhos de aguia!"
+        background-image: url(./img/salao.jpeg);
+        --text-description: "Salao social e cantina: muita conversa e café"
     }
 }
 @keyframes fade {
